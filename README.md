@@ -6,5 +6,3 @@ Includes template code for running tests with unittest and coverage
 
 ## Containerization
 Includes devcontainer and Dockerfile for running in VSCode remote container
-
-## Needs to be template repo
