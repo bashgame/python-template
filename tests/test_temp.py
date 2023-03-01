@@ -27,4 +27,4 @@ class TestTemplate(TestCase):
 
     def test_template(self):
         """ Template test case, please update """
-        self.assertEqual(True,False)
+        self.assertTrue(False)
