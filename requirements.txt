@@ -6,3 +6,5 @@ pinocchio
 coverage
 pylint
 flake8
+pytest
+pytest-cov
