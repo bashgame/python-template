@@ -2,6 +2,8 @@
 
 set -e
 
+export PYTHONPATH=".:${PYTHONPATH}"
+
 echo "==> Running flake8..."
 flake8 modules tests
 
