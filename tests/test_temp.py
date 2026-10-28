@@ -1,30 +1,14 @@
 """
 Template Test Cases, please update
 """
-from unittest import TestCase
-from modules import *
+import modules
 
-class TestTemplate(TestCase):
-    """ Test Template, please update """
 
-    @classmethod
-    def setUpClass(cls):
-        """ Do something to set up tests, please update """
+def test_sample():
+    """Verify standard addition logic."""
+    assert 1 + 1 == 2
 
-    @classmethod
-    def tearDownClass(cls):
-        """ Do something to clean up tests, please update """
 
-    def setUp(self):
-        """ Ensure each test runs clean, please update """
-
-    def tearDown(self):
-        """ Ensure each test runs clean, please update """
-
-    ###########################################################################
-    #   T E S T  C A S E S
-    ###########################################################################
-
-    def test_template(self):
-        """ Template test case, please update """
-        self.assertTrue(True)
+def test_module_exists():
+    """Verify modules package can be imported."""
+    assert modules is not None
